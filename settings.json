@@ -1,0 +1,86 @@
+{
+    "workbench.colorTheme": "Dark Modern",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","k"],
+            "after": ["<Esc>", "l"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["J"],
+            "after": ["1", "0", "j"]
+        },
+        {
+            "before": ["K"],
+            "after": ["1", "0", "k"]
+        }
+    ],
+    "notebook.output.textLineLimit": 500,
+    "editor.defaultFormatter": "ms-python.python",
+    "notebook.formatOnCellExecution": true,
+    "notebook.output.scrolling": true,
+    "notebook.compactView": false,
+    "workbench.settings.applyToAllProfiles": [
+        "notebook.compactView"
+    ],
+    "notebook.editorOptionsCustomizations": {},
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "monkeyC.developerKeyPath": "c:\\Users\\satyakt\\.ssh\\others\\garmin\\developer_key",
+    "editor.codeActionsOnSave": {},
+    "diffEditor.codeLens": true,
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "ms-settings"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "geminicodeassist.project": "reference-concord-q7vsb",
+    "remote.SSH.remotePlatform": {"coder-vscode.coder.saga-retail.internal--satya-ktirtha--test.main":"linux","coder-vscode.coder.saga-retail.internal--satya-ktirtha--test-webapp.main":"linux","coder-vscode.coder.saga-retail.internal--satya-ktirtha--test-api.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--test-1.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--test.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--rehaul-fe.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--rehaul-be.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--upi-be.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--upi-be-transition.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--upi-auth-rehaul.main":"linux","coder-vscode.coder.dev.dontlu.uk--satya-ktirtha--ppjk-api.main":"linux"},
+    "remote.SSH.connectTimeout": 1800,
+    "remote.SSH.reconnectionGraceTime": 28800,
+    "remote.SSH.serverShutdownTimeout": 28800,
+    "remote.SSH.maxReconnectionAttempts": null,
+    "coder.insecure": true,
+    "settingsSync.ignoredSettings": [
+        "http.proxy",
+        "remote.SSH.httpProxy",
+        "remote.SSH.httpsProxy"
+    ],
+    "http.proxyStrictSSL": false,
+    "http.proxySupport": "on",
+    "chat.disableAIFeatures": true,
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "security.promptForRemoteFileProtocolHandling": false,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-git-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
