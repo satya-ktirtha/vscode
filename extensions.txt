@@ -1,0 +1,12 @@
+dart-code.dart-code
+dart-code.flutter
+eamodio.gitlens
+garmin.monkey-c
+golang.go
+google.geminicodeassist
+ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
+ms-vscode.cmake-tools
+oderwat.indent-rainbow
+vscodevim.vim
+wix.vscode-import-cost
